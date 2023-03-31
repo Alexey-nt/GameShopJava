@@ -49,11 +49,4 @@ public class Toy implements Interface{
     public int inputCount(int count) {
         return this.count = count;
     }
-
-    @Override
-    public int getID() {
-        return id;
-    }
-
-
 }
