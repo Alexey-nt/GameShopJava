@@ -9,6 +9,4 @@ public interface Interface {
     int getOdd();
     int inputOdd(int odd);
     int inputCount(int count);
-    int getID();
-
 }
