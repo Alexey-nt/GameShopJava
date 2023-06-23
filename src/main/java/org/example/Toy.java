@@ -1,4 +1,4 @@
-package org.example;
+package main.java.org.example;
 
 import java.util.ArrayList;
 import java.util.Random;
@@ -17,7 +17,7 @@ public class Toy implements Interface{
     }
 
     private int generateId() {
-        return new Random().nextInt(10_000, 100_000);
+        return new Random().nextInt();
     }
 
     @Override

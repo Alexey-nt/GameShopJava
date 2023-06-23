@@ -1,4 +1,4 @@
-package org.example;
+package main.java.org.example;
 
 import java.io.FileWriter;
 import java.io.IOException;
@@ -18,10 +18,10 @@ public class Main {
         if (list.isEmpty()) {
 //            System.out.println("Автомат пуст. Необходимо добавить игрушки!");
 //            addToy(list, 1);
-            list.add(new Toy("кукла", 3, 50));
-            list.add(new Toy("машина", 2, 10));
-            list.add(new Toy("мяч", 2, 70));
-            list.add(new Toy("робот", 1, 20));
+            list.add(new Toy("куклы", 3, 50));
+            list.add(new Toy("машинки", 2, 10));
+            list.add(new Toy("мячики", 2, 70));
+            list.add(new Toy("роботы", 1, 20));
         }
         int num = 1;
         int step = 5;
